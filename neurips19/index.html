@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeurIPS 2019</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+    .dropdown-submenu {
+    position: relative;
+    }
+
+    .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/neurips19/index">Spotlight</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Algorithms</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Active_Learning">Active Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Adaptive_Data_Analysis">Adaptive Data Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Adversarial_Learning">Adversarial Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/AutoML">AutoML</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Bandit_Algorithms">Bandit Algorithms</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Boosting_and_Ensemble_Methods">Boosting and Ensemble Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Classification">Classification</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Clustering">Clustering</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Collaborative_Filtering">Collaborative Filtering</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Components_Analysis_(e.g._CCA_ICA_LDA_PCA)">Components Analysis (e.g. CCA ICA LDA PCA)</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Density_Estimation">Density Estimation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Dynamical_Systems">Dynamical Systems</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Few-Shot_Learning">Few-Shot Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Kernel_Methods">Kernel Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Large_Scale_Learning">Large Scale Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Meta-Learning">Meta-Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Metric_Learning">Metric Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Missing_Data">Missing Data</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Model_Selection_and_Structure_Learning">Model Selection and Structure Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Multitask_and_Transfer_Learning">Multitask and Transfer Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Nonlinear_Dimensionality_Reduction_and_Manifold_Learning">Nonlinear Dimensionality Reduction and Manifold Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Online_Learning">Online Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Ranking_and_Preference_Learning">Ranking and Preference Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Regression">Regression</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Relational_Learning">Relational Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Representation_Learning">Representation Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Semi-Supervised_Learning">Semi-Supervised Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Similarity_and_Distance_Learning">Similarity and Distance Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Sparse_Coding_and_Dimensionality_Expansion">Sparse Coding and Dimensionality Expansion</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Sparsity_and_Compressed_Sensing">Sparsity and Compressed Sensing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Spectral_Methods">Spectral Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Stochastic_Methods">Stochastic Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Structured_Prediction">Structured Prediction</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Uncertainty_Estimation">Uncertainty Estimation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Unsupervised_Learning">Unsupervised Learning</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Applications</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Activity_and_Event_Recognition">Activity and Event Recognition</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Audio_and_Speech_Processing">Audio and Speech Processing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Body_Pose_Face_and_Gesture_Analysis">Body Pose Face and Gesture Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Communication-_or_Memory-Bounded_Learning">Communication- or Memory-Bounded Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computational_Biology_and_Bioinformatics">Computational Biology and Bioinformatics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computational_Photography">Computational Photography</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computational_Social_Science">Computational Social Science</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computer_Vision">Computer Vision</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Denoising">Denoising</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Dialog-_or_Communication-Based_Learning">Dialog- or Communication-Based Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Fairness_Accountability_and_Transparency">Fairness Accountability and Transparency</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Game_Playing">Game Playing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Hardware_and_Systems">Hardware and Systems</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Health">Health</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Image_Segmentation">Image Segmentation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Information_Retrieval">Information Retrieval</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Matrix_and_Tensor_Factorization">Matrix and Tensor Factorization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Natural_Language_Processing">Natural Language Processing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Network_Analysis">Network Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Object_Detection">Object Detection</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Object_Recognition">Object Recognition</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Privacy_Anonymity_and_Security">Privacy Anonymity and Security</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Program_Understanding_and_Generation">Program Understanding and Generation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Quantitative_Finance_and_Econometrics">Quantitative Finance and Econometrics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Recommender_Systems">Recommender Systems</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Robotics">Robotics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Signal_Processing">Signal Processing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Sustainability">Sustainability</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Time_Series_Analysis">Time Series Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Tracking_and_Motion_in_Video">Tracking and Motion in Video</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Video_Analysis">Video Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Visual_Question_Answering">Visual Question Answering</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Visual_Scene_Analysis_and_Interpretation">Visual Scene Analysis and Interpretation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Web_Applications_and_Internet_Data">Web Applications and Internet Data</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Data Challenges Implementations and Software</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Benchmarks">Benchmarks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Data_Sets_or_Data_Repositories">Data Sets or Data Repositories</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Software_Toolkits">Software Toolkits</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Virtual_Environments">Virtual Environments</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Deep Learning</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Adversarial_Networks">Adversarial Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Attention_Models">Attention Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Biologically_Plausible_Deep_Networks">Biologically Plausible Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/CNN_Architectures">CNN Architectures</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Deep_Autoencoders">Deep Autoencoders</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Efficient_Inference_Methods">Efficient Inference Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Efficient_Training_Methods">Efficient Training Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Embedding_Approaches">Embedding Approaches</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Generative_Models">Generative Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Interaction-Based_Deep_Networks">Interaction-Based Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Memory-Augmented_Neural_Networks">Memory-Augmented Neural Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Optimization_for_Deep_Networks">Optimization for Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Predictive_Models">Predictive Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Recurrent_Networks">Recurrent Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Supervised_Deep_Networks">Supervised Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Visualization_or_Exposition_Techniques_for_Deep_Networks">Visualization or Exposition Techniques for Deep Networks</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Neuroscience and Cognitive Science</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Brain--Computer_Interfaces_and_Neural_Prostheses">Brain--Computer Interfaces and Neural Prostheses</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Brain_Imaging">Brain Imaging</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Brain_Mapping">Brain Mapping</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Cognitive_Science">Cognitive Science</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Connectomics">Connectomics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Human_or_Animal_Learning">Human or Animal Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Language_for_Cognitive_Science">Language for Cognitive Science</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Memory">Memory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Neural_Coding">Neural Coding</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Neuroscience">Neuroscience</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Perception">Perception</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Problem_Solving">Problem Solving</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Reasoning">Reasoning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Visual_Perception">Visual Perception</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Optimization</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Combinatorial_Optimization">Combinatorial Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Convex_Optimization">Convex Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Non-Convex_Optimization">Non-Convex Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Stochastic_Optimization">Stochastic Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Submodular_Optimization">Submodular Optimization</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Probabilistic Methods</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Bayesian_Nonparametrics">Bayesian Nonparametrics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Belief_Propagation">Belief Propagation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Causal_Inference">Causal Inference</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Distributed_Inference">Distributed Inference</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Gaussian_Processes">Gaussian Processes</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Graphical_Models">Graphical Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Hierarchical_Models">Hierarchical Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Latent_Variable_Models">Latent Variable Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/MCMC">MCMC</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Topic_Models">Topic Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Variational_Inference">Variational Inference</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Reinforcement Learning and Planning</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Decision_and_Control">Decision and Control</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Exploration">Exploration</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Hierarchical_RL">Hierarchical RL</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Markov_Decision_Processes">Markov Decision Processes</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Model-Based_RL">Model-Based RL</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Multi-Agent_RL">Multi-Agent RL</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Navigation">Navigation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Planning">Planning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Reinforcement_Learning">Reinforcement Learning</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Theory</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Computational_Complexity">Computational Complexity</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Control_Theory">Control Theory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Frequentist_Statistics">Frequentist Statistics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Game_Theory_and_Computational_Economics">Game Theory and Computational Economics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Hardness_of_Learning_and_Approximations">Hardness of Learning and Approximations</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Information_Theory">Information Theory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Large_Deviations_and_Asymptotic_Analysis">Large Deviations and Asymptotic Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Learning_Theory">Learning Theory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Regularization">Regularization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Spaces_of_Functions_and_Kernels">Spaces of Functions and Kernels</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Statistical_Physics_of_Learning">Statistical Physics of Learning</a></li>
+                    </ul>
+                    </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/neurips19/oral">Oral</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/neurips19/workshop">Workshop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/neurips19/others">Tutorials and Talks</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+    $('.dropdown-menu a.dropdown-toggle').on('mouseover', function(e) {
+    if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+    }
+    var $subMenu = $(this).next('.dropdown-menu');
+    $subMenu.toggleClass('show');
+
+
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+        $('.dropdown-submenu .show').removeClass('show');
+    });
+
+
+    return false;
+    });
+    </script>
+    <div class="main-content" style="margin:15px 3% 0 5%;font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">
+        <div class="container-fluid">
+
+
+<h1>Spotlight</h1>
+<table class="table table-striped">
+<thead><tr><th scope="col">Title</th><th scope="col">Authors</th></tr></thead>
+<tbody>
+<tr><td>Machine Learning Estimation of Heterogeneous Treatment Effects with Instruments</td><td>Vasilis Syrgkanis &middot; Victor Lei &middot; Miruna Oprescu &middot; Maggie Hei &middot; Keith Battocchi &middot; Greg Lewis</td></tr>
+<tr><td>On Exact Computation with an Infinitely Wide Neural Net</td><td>Sanjeev Arora &middot; Simon Du &middot; Wei Hu &middot; Zhiyuan Li &middot; Russ Salakhutdinov &middot; Ruosong Wang</td></tr>
+<tr><td>List-decodable Linear Regression</td><td>Sushrut Karmalkar &middot; Adam Klivans &middot; Pravesh Kothari</td></tr>
+<tr><td>Legendre Memory Units: Continuous-Time Representation in Recurrent Neural Networks</td><td>Aaron Voelker &middot; Ivana Kajić &middot; Chris Eliasmith</td></tr>
+<tr><td>Identification of Conditional Causal Effects under Markov Equivalence</td><td>Amin Jaber &middot; Jiji Zhang &middot; Elias Bareinboim</td></tr>
+<tr><td>Generalization Bounds of Stochastic Gradient Descent for Wide and Deep Neural Networks</td><td>Yuan Cao &middot; Quanquan Gu</td></tr>
+<tr><td>On the Hardness of Robust Classification</td><td>Pascale Gourdeau &middot; Varun Kanade &middot; Marta Kwiatkowska &middot; James Worrell</td></tr>
+<tr><td>Point-Voxel CNN for Efficient 3D Deep Learning</td><td>Zhijian Liu &middot; Haotian Tang &middot; Yujun Lin &middot; Song Han</td></tr>
+<tr><td>Likelihood-Free Overcomplete ICA and Applications In Causal Discovery</td><td>Chenwei DING &middot; Mingming Gong &middot; Kun Zhang &middot; Dacheng Tao</td></tr>
+<tr><td>Efficient and Accurate Estimation of Lipschitz Constants for Deep Neural Networks</td><td>Mahyar Fazlyab &middot; Alexander Robey &middot; Hamed Hassani &middot; Manfred Morari &middot; George Pappas</td></tr>
+<tr><td>Adversarial Examples Are Not Bugs, They Are Features</td><td>Andrew Ilyas &middot; Shibani Santurkar &middot; Dimitris Tsipras &middot; Logan Engstrom &middot; Brandon Tran &middot; Aleksander Madry</td></tr>
+<tr><td>Neural Networks with Cheap Differential Operators</td><td>Tian Qi Chen &middot; David Duvenaud</td></tr>
+<tr><td>Perceiving the arrow of time in autoregressive motion</td><td>Kristof Meding &middot; Dominik Janzing &middot; Bernhard Schölkopf &middot; Felix A. Wichmann</td></tr>
+<tr><td>Towards Explaining the Regularization Effect of Initial Large Learning Rate in Training Neural Networks</td><td>Yuanzhi Li &middot; Colin Wei &middot; Tengyu Ma</td></tr>
+<tr><td>Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness</td><td>Saeed Mahloujifar &middot; Xiao Zhang &middot; Mohammad Mahmoody &middot; David Evans</td></tr>
+<tr><td>Sequential Neural Processes</td><td>Gautam Singh &middot; Jaesik Yoon &middot; Youngsung Son &middot; Sungjin Ahn</td></tr>
+<tr><td>Conditional Independence Testing using Generative Adversarial Networks</td><td>Alexis Bellot &middot; Mihaela van der Schaar</td></tr>
+<tr><td>Data-dependent Sample Complexity of Deep Neural Networks via Lipschitz Augmentation</td><td>Colin Wei &middot; Tengyu Ma</td></tr>
+<tr><td>Quantum Entropy Scoring for Fast Robust Mean Estimation and Improved Outlier Detection</td><td>Yihe Dong &middot; Samuel Hopkins &middot; Jerry Li</td></tr>
+<tr><td>Deep Equilibrium Models</td><td>Shaojie Bai &middot; J. Zico Kolter &middot; Vladlen Koltun</td></tr>
+<tr><td>Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement</td><td>Chao Yang &middot; Xiaojian Ma &middot; Wenbing Huang &middot; Fuchun Sun &middot; Huaping Liu &middot; Junzhou Huang &middot; Chuang Gan</td></tr>
+<tr><td>Learning Hierarchical Priors in VAEs</td><td>Alexej Klushyn &middot; Nutan Chen &middot; Richard Kurle &middot; Botond Cseke &middot; Patrick van der Smagt</td></tr>
+<tr><td>Asymmetric Valleys: Beyond Sharp and Flat Local Minima</td><td>Haowei He &middot; Gao Huang &middot; Yang Yuan</td></tr>
+<tr><td>Scalable Global Optimization via Local Bayesian Optimization</td><td>David Eriksson &middot; Michael Pearce &middot; Jacob Gardner &middot; Ryan Turner &middot; Matthias Poloczek</td></tr>
+<tr><td>Learning to Control Self-Assembling Morphologies: A Study of Generalization via Modularity</td><td>Deepak Pathak &middot; Christopher Lu &middot; Trevor Darrell &middot; Phillip Isola &middot; Alexei Efros</td></tr>
+<tr><td>Implicit Generation and Modeling with Energy Based Models</td><td>Yilun Du &middot; Igor Mordatch</td></tr>
+<tr><td>Reducing the variance in online optimization by transporting past gradients</td><td>Sébastien Arnold &middot; Pierre-Antoine Manzagol &middot; Reza Babanezhad Harikandeh &middot; Ioannis Mitliagkas &middot; Nicolas Le Roux</td></tr>
+<tr><td>Uncertainty on Asynchronous Time Event Prediction</td><td>Marin Biloš &middot; Bertrand Charpentier &middot; Stephan Günnemann</td></tr>
+<tr><td>A Structured Prediction Approach for Generalization in Cooperative Multi-Agent Reinforcement Learning</td><td>Nicolas Carion &middot; Nicolas Usunier &middot; Gabriel Synnaeve &middot; Alessandro Lazaric</td></tr>
+<tr><td>Invertible Convolutional Flow</td><td>Mahdi Karami &middot; Dale Schuurmans &middot; Jascha Sohl-Dickstein &middot; Laurent Dinh &middot; Daniel Duckworth</td></tr>
+<tr><td>Who is Afraid of Big Bad Minima? Analysis of gradient-flow in spiked matrix-tensor models</td><td>Stefano Sarao Mannelli &middot; Giulio Biroli &middot; Chiara Cammarota &middot; Florent Krzakala &middot; Lenka Zdeborová</td></tr>
+<tr><td>Bayesian Optimization under Heavy-tailed Payoffs</td><td>Sayak Ray Chowdhury &middot; Aditya Gopalan</td></tr>
+<tr><td>Learning Compositional Neural Programs with Recursive Tree Search and Planning</td><td>Thomas PIERROT &middot; Guillaume Ligner &middot; Scott Reed &middot; Olivier Sigaud &middot; Nicolas Perrin &middot; Alexandre Laterre &middot; David Kas &middot; Karim Beguir &middot; Nando de Freitas</td></tr>
+<tr><td>Residual Flows for Invertible Generative Modeling</td><td>Tian Qi Chen &middot; Jens Behrmann &middot; David Duvenaud &middot; Joern-Henrik Jacobsen</td></tr>
+<tr><td>Fast and Provable ADMM for Learning with Generative Priors</td><td>Fabian Latorre &middot; Armin eftekhari &middot; Volkan Cevher</td></tr>
+<tr><td>Variational Bayesian Optimal Experimental Design</td><td>Adam Foster &middot; Martin Jankowiak &middot; Elias Bingham &middot; Paul Horsfall &middot; Yee Whye Teh &middot; Thomas Rainforth &middot; Noah Goodman</td></tr>
+<tr><td>Guided Meta-Policy Search</td><td>Russell Mendonca &middot; Abhishek Gupta &middot; Rosen Kralev &middot; Pieter Abbeel &middot; Sergey Levine &middot; Chelsea Finn</td></tr>
+<tr><td>Dual Variational Generation for Low Shot Heterogeneous Face Recognition</td><td>Chaoyou Fu &middot; Xiang Wu &middot; Yibo Hu &middot; Huaibo Huang &middot; Ran He</td></tr>
+<tr><td>Complexity of Highly Parallel Non-Smooth Convex Optimization</td><td>Sebastien Bubeck &middot; Qijia Jiang &middot; Yin-Tat Lee &middot; Yuanzhi Li &middot; Aaron Sidford</td></tr>
+<tr><td>Implicit Posterior Variational Inference for Deep Gaussian Processes</td><td>Haibin YU &middot; Yizhou Chen &middot; Bryan Kian Hsiang Low &middot; Patrick Jaillet &middot; Zhongxiang Dai</td></tr>
+<tr><td>Better Exploration with Optimistic Actor Critic</td><td>Kamil Ciosek &middot; Quan Vuong &middot; Robert Loftin &middot; Katja Hofmann</td></tr>
+<tr><td>Adaptive Density Estimation for Generative Models</td><td>Thomas Lucas &middot; Konstantin Shmelkov &middot; Karteek Alahari &middot; Cordelia Schmid &middot; Jakob Verbeek</td></tr>
+<tr><td>SySCD: A System-Aware Parallel Coordinate Descent Algorithm</td><td>Nikolas Ioannou &middot; Celestine Mendler-Dünner &middot; Thomas Parnell</td></tr>
+<tr><td>Divide and Couple: Using Monte Carlo Variational Objectives for Posterior Approximation</td><td>Justin Domke &middot; Daniel Sheldon</td></tr>
+<tr><td>Robust exploration in linear quadratic reinforcement learning </td><td>Jack Umenberger &middot; Mina Ferizbegovic &middot; Thomas Schön &middot; Håkan Hjalmarsson</td></tr>
+<tr><td>Twin Auxilary Classifiers GAN</td><td>Mingming Gong &middot; Yanwu Xu &middot; Chunyuan Li &middot; Kun Zhang &middot; Kayhan Batmanghelich</td></tr>
+<tr><td>Learning Positive Functions with Pseudo Mirror Descent</td><td>Yingxiang Yang &middot; Haoxiang Wang &middot; Negar Kiyavash &middot; Niao He</td></tr>
+<tr><td>The Randomized Midpoint Method for Log-Concave Sampling</td><td>Ruoqi Shen &middot; Yin Tat Lee</td></tr>
+<tr><td>Tight Regret Bounds for Model-Based Reinforcement Learning with Greedy Policies</td><td>Yonathan Efroni &middot; Nadav Merlis &middot; Mohammad Ghavamzadeh &middot; Shie Mannor</td></tr>
+<tr><td>Adversarial Fisher Vectors for Unsupervised Representation Learning</td><td>Joshua Susskind &middot; Shuangfei Zhai &middot; Walter Talbott &middot; Carlos Guestrin</td></tr>
+<tr><td>UniXGrad: A Universal, Adaptive Algorithm with Optimal Guarantees for Constrained Optimization</td><td>Ali Kavis &middot; Kfir Y. Levy &middot; Francis Bach &middot; Volkan Cevher</td></tr>
+<tr><td>Poisson-Minibatching for Gibbs Sampling with Convergence Rate Guarantees</td><td>Ruqi Zhang &middot; Christopher De Sa</td></tr>
+<tr><td>Hindsight Credit Assignment</td><td>Anna Harutyunyan &middot; Will Dabney &middot; Thomas Mesnard &middot; Mohammad Gheshlaghi Azar &middot; Bilal Piot &middot; Nicolas Heess &middot; Hado van Hasselt &middot; Gregory Wayne &middot; Satinder Singh &middot; Doina Precup &middot; Remi Munos</td></tr>
+<tr><td>Emergence of Object Segmentation in Perturbed Generative Models</td><td>Adam Bielski &middot; Paolo Favaro</td></tr>
+<tr><td>Sinkhorn Barycenters with Free Support via Frank-Wolfe Algorithm</td><td>Giulia Luise &middot; Saverio Salzo &middot; Massimiliano Pontil &middot; Carlo Ciliberto</td></tr>
+<tr><td>Stochastic Proximal Langevin Algorithm: Potential Splitting and Nonasymptotic Rates</td><td>Adil SALIM &middot; Dmitry Koralev &middot; Peter Richtarik</td></tr>
+<tr><td>Weight Agnostic Neural Networks</td><td>Adam Gaier &middot; David Ha</td></tr>
+<tr><td>Compression with Flows via Local Bits-Back Coding</td><td>Jonathan Ho &middot; Evan Lohn &middot; Pieter Abbeel</td></tr>
+<tr><td>Learning dynamic polynomial proofs</td><td>Alhussein Fawzi &middot; Mateusz Malinowski &middot; Hamza Fawzi &middot; Omar Fawzi</td></tr>
+<tr><td>Stochastic Runge-Kutta Accelerates Langevin Monte Carlo and Beyond</td><td>Xuechen Li &middot; Yi Wu &middot; Lester Mackey &middot; Murat Erdogdu</td></tr>
+<tr><td>Calibration tests in multi-class classification: A unifying framework</td><td>David Widmann &middot; Fredrik Lindsten &middot; Dave Zachariah</td></tr>
+<tr><td>A Condition Number for Joint Optimization of Cycle-Consistent Networks</td><td>Leonidas J Guibas &middot; Qixing Huang &middot; Zhenxiao Liang</td></tr>
+<tr><td>DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections</td><td>Ofir Nachum &middot; Yinlam Chow &middot; Bo Dai &middot; Lihong Li</td></tr>
+<tr><td>Sparse Logistic Regression Learns All Discrete Pairwise Graphical Models</td><td>Shanshan Wu &middot; Sujay Sanghavi &middot; Alexandros Dimakis</td></tr>
+<tr><td>Verified Uncertainty Calibration</td><td>Ananya Kumar &middot; Percy Liang &middot; Tengyu Ma</td></tr>
+<tr><td>Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution</td><td>Thang Vu &middot; Hyunjun Jang &middot; Trung X. Pham &middot; Chang Yoo</td></tr>
+<tr><td>VIREL: A Variational Inference Framework for Reinforcement Learning</td><td>Matthew Fellows &middot; Anuj Mahajan &middot; Tim G. J. Rudner &middot; Shimon Whiteson</td></tr>
+<tr><td>Fast Convergence of Belief Propagation to Global Optima: Beyond Correlation Decay </td><td>Frederic Koehler</td></tr>
+<tr><td>Fast structure learning with modular regularization</td><td>Greg Ver Steeg &middot; Hrayr Harutyunyan &middot; Daniel Moyer &middot; Aram Galstyan</td></tr>
+<tr><td>Probabilistic Watershed: Sampling all spanning forests for seeded segmentation and semi-supervised learning</td><td>Enrique Fita Sanmartin &middot; Sebastian Damrich &middot; Fred Hamprecht</td></tr>
+<tr><td>Unsupervised Curricula for Visual Meta-Reinforcement Learning</td><td>Allan Jabri &middot; Kyle Hsu &middot; Abhishek Gupta &middot; Ben Eysenbach &middot; Sergey Levine &middot; Chelsea Finn</td></tr>
+<tr><td>Smoothing Structured Decomposable Circuits</td><td>Andy Shih &middot; Guy Van den Broeck &middot; Paul Beame &middot; Antoine Amarilli</td></tr>
+<tr><td>Principal Component Projection and Regression in Nearly Linear Time through Asymmetric SVRG</td><td>Yujia Jin &middot; Aaron Sidford</td></tr>
+<tr><td>DM2C: Deep Mixed-Modal Clustering</td><td>Yangbangyan Jiang &middot; Qianqian Xu &middot; Zhiyong Yang &middot; Xiaochun Cao &middot; Qingming Huang</td></tr>
+<tr><td>Policy Continuation with Hindsight Inverse Dynamics</td><td>Hao Sun &middot; Zhizhong Li &middot; Xiaotong Liu &middot; Bolei Zhou &middot; Dahua Lin</td></tr>
+<tr><td>Counting the Optimal Solutions in Graphical Models</td><td>Radu Marinescu &middot; Rina Dechter</td></tr>
+<tr><td>PIDForest: Anomaly Detection via Partial Identification</td><td>Parikshit Gopalan &middot; Vatsal Sharan &middot; Udi Wieder</td></tr>
+<tr><td>Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds</td><td>Bo Yang &middot; Jianan Wang &middot; Ronald Clark &middot; Qingyong Hu &middot; Sen Wang &middot; Andrew Markham &middot; Niki Trigoni</td></tr>
+<tr><td>Learning Reward Machines for Partially Observable Reinforcement Learning</td><td>Rodrigo Toro Icarte &middot; Ethan Waldie &middot; Toryn Klassen &middot; Rick Valenzano &middot; Margarita Castro &middot; Sheila McIlraith</td></tr>
+<tr><td>Combining Generative and Discriminative Models for Hybrid Inference</td><td>Victor Garcia Satorras &middot; Max Welling &middot; Zeynep Akata</td></tr>
+<tr><td>Fast and Flexible Multi-Task Classification using Conditional Neural Adaptive Processes</td><td>James Requeima &middot; Jonathan Gordon &middot; John Bronskill &middot; Sebastian Nowozin &middot; Richard Turner</td></tr>
+<tr><td>Time/Accuracy Tradeoffs for Learning a ReLU with respect to Gaussian Marginals</td><td>Surbhi Goel &middot; Sushrut Karmalkar &middot; Adam Klivans</td></tr>
+<tr><td>Are sample means in multi-armed bandits positively or negatively biased? </td><td>Jaehyeok Shin &middot; Aaditya Ramdas &middot; Alessandro Rinaldo</td></tr>
+<tr><td>Finding Friend and Foe in Multi-Agent Games</td><td>Jack Serrino &middot; Max Kleiman-Weiner &middot; David Parkes &middot; Josh Tenenbaum</td></tr>
+<tr><td>Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation</td><td>Risto Vuorio &middot; Shao-Hua Sun &middot; Hexiang Hu &middot; Joseph Lim</td></tr>
+<tr><td>Limitations of Lazy Training of Two-layers Neural Network</td><td>Song Mei &middot; Theodor Misiakiewicz &middot; Behrooz Ghorbani &middot; Andrea Montanari</td></tr>
+<tr><td>SIC-MMAB: Synchronisation Involves Communication in Multiplayer Multi-Armed Bandits</td><td>Etienne Boursier &middot; Vianney Perchet</td></tr>
+<tr><td>Efficient Regret Minimization Algorithm for Extensive-Form Correlated Equilibrium</td><td>Gabriele Farina &middot; Chun Kai Ling &middot; Fei Fang &middot; Tuomas Sandholm</td></tr>
+<tr><td>Efficient Meta Learning via Minibatch Proximal Update</td><td>Pan Zhou &middot; Xiaotong Yuan &middot; Huan Xu &middot; Shuicheng Yan &middot; Jiashi Feng</td></tr>
+<tr><td>Generalization Bounds for Neural Networks via Approximate Description Length</td><td>Amit Daniely &middot; Elad Granot</td></tr>
+<tr><td>Recovering Bandits</td><td>Ciara Pike-Burke &middot; Steffen Grunewalder</td></tr>
+<tr><td>Poincaré Recurrence, Cycles and Spurious Equilibria in Gradient-Descent-Ascent for Non-Convex Non-Concave Zero-Sum Games</td><td>Emmanouil-Vasileios Vlatakis-Gkaragkounis &middot; Lampros Flokas &middot; Georgios Piliouras</td></tr>
+<tr><td>Reconciling meta-learning and continual learning with online mixtures of tasks</td><td>Ghassen Jerfel &middot; Erin Grant &middot; Tom Griffiths &middot; Katherine Heller</td></tr>
+<tr><td>Small ReLU networks are powerful memorizers: a tight analysis of memorization capacity</td><td>Chulhee Yun &middot; Suvrit Sra &middot; Ali Jadbabaie</td></tr>
+<tr><td>Model Selection for Contextual Bandits</td><td>Dylan Foster &middot; Akshay Krishnamurthy &middot; Haipeng Luo</td></tr>
+<tr><td>Multiagent Evaluation under Incomplete Information</td><td>Mark Rowland &middot; Shayegan Omidshafiei &middot; Karl Tuyls &middot; Julien Perolat &middot; Michal Valko &middot; Georgios Piliouras &middot; Remi Munos</td></tr>
+<tr><td>Learning by Abstraction: The Neural State Machine</td><td>Drew Hudson &middot; Christopher Manning</td></tr>
+<tr><td>Cold Case: The Lost MNIST Digits</td><td>Chhavi Yadav &middot; Leon Bottou</td></tr>
+<tr><td>Beyond Online Balanced Descent: An Optimal Algorithm for Smoothed Online Optimization</td><td>Gautam Goel &middot; Yiheng Lin &middot; Haoyuan Sun &middot; Adam Wierman</td></tr>
+<tr><td>Graph-based Discriminators: Sample Complexity and Expressiveness</td><td>Roi Livni &middot; Yishay Mansour</td></tr>
+<tr><td>Heterogeneous Graph Learning for Visual Commonsense Reasoning</td><td>Weijiang Yu &middot; Jingwen Zhou &middot; Weihao Yu &middot; Xiaodan Liang &middot; Nong Xiao</td></tr>
+<tr><td>An adaptive nearest neighbor rule for classification</td><td>Akshay Balsubramani &middot; Sanjoy Dasgupta &middot; yoav Freund &middot; Shay Moran</td></tr>
+<tr><td>Learning in Generalized  Linear Contextual Bandits with Stochastic Delays</td><td>Zhengyuan Zhou &middot; Renyuan Xu &middot; Jose Blanchet</td></tr>
+<tr><td>Nearly Tight Bounds for Robust Proper Learning of Halfspaces with a Margin</td><td>Ilias Diakonikolas &middot; Daniel Kane &middot; Pasin Manurangsi</td></tr>
+<tr><td>Self-Critical Reasoning for Robust Visual Question Answering</td><td>Jialin Wu &middot; Raymond Mooney</td></tr>
+<tr><td>Multilabel reductions: what is my loss optimising?</td><td>Aditya Menon &middot; Ankit Singh Rawat &middot; Sashank Reddi &middot; Sanjiv Kumar</td></tr>
+<tr><td>Optimal Stochastic and Online Learning with Individual Iterates</td><td>Yunwen Lei &middot; Peng Yang &middot; Ke Tang &middot; Ding-Xuan Zhou</td></tr>
+<tr><td>McDiarmid-Type Inequalities for Graph-Dependent Variables and Stability Bounds</td><td>Rui (Ray) Zhang &middot; Xingwu Liu &middot; Yuyi Wang &middot; Liwei Wang</td></tr>
+<tr><td>SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems</td><td>Alex Wang &middot; Yada Pruksachatkun &middot; Nikita Nangia &middot; Amanpreet Singh &middot; Julian Michael &middot; Felix Hill &middot; Omer Levy &middot; Samuel Bowman</td></tr>
+<tr><td>Optimal Sparse Decision Trees</td><td>Xiyang Hu &middot; Cynthia Rudin &middot; Margo Seltzer</td></tr>
+<tr><td>Online Learning via the Differential Privacy Lens</td><td>Jacob Abernethy &middot; Young Hun Jung &middot; Chansoo Lee &middot; Audra McMillan &middot; Ambuj Tewari</td></tr>
+<tr><td>The Broad Optimality of Profile Maximum Likelihood</td><td>Yi Hao &middot; Alon Orlitsky</td></tr>
+<tr><td>Implicit Regularization in Deep Matrix Factorization</td><td>Sanjeev Arora &middot; Nadav Cohen &middot; Wei Hu &middot; Yuping Luo</td></tr>
+<tr><td>Learning Perceptual Inference by Contrasting</td><td>Chi Zhang &middot; Baoxiong Jia &middot; Feng Gao &middot; Yixin Zhu &middot; HongJing Lu &middot; Song-Chun Zhu</td></tr>
+<tr><td>Provably Robust Deep Learning via Adversarially Trained Smoothed Classifiers</td><td>Hadi Salman &middot; Jerry Li &middot; Ilya Razenshteyn &middot; Pengchuan Zhang &middot; Huan Zhang &middot; Sebastien Bubeck &middot; Greg Yang</td></tr>
+<tr><td>Modeling Conceptual Understanding in Image Reference Games</td><td>Rodolfo Corona Rodriguez &middot; Stephan Alaniz &middot; Zeynep Akata</td></tr>
+<tr><td>SGD on Neural Networks Learns Functions of Increasing Complexity</td><td>Dimitris Kalimeris &middot; Gal Kaplun &middot; Preetum Nakkiran &middot; Benjamin Edelman &middot; Tristan Yang &middot; Boaz Barak &middot; Haofeng Zhang</td></tr>
+<tr><td>Universality and individuality in neural dynamics across large populations of recurrent networks</td><td>Niru Maheswaranathan &middot; Alex Williams &middot; Matthew Golub &middot; Surya Ganguli &middot; David Sussillo</td></tr>
+<tr><td>Adversarial Music: Real world Audio Adversary against Wake-word Detection System</td><td>Juncheng Li &middot; Shuhui Qu &middot; Xinjian Li &middot; Joseph Szurley &middot; J. Zico Kolter &middot; Florian Metze</td></tr>
+<tr><td>This Looks Like That: Deep Learning for Interpretable Image Recognition</td><td>Chaofan Chen &middot; Oscar Li &middot; Daniel Tao &middot; Alina Barnett &middot; Cynthia Rudin &middot; Jonathan K Su</td></tr>
+<tr><td>When does label smoothing help?</td><td>Rafael Müller &middot; Simon Kornblith &middot; Geoffrey E Hinton</td></tr>
+<tr><td>Better Transfer Learning with Inferred Successor Maps</td><td>Tamas Madarasz &middot; Tim Behrens</td></tr>
+<tr><td>Convergence of Adversarial Training in Overparametrized Neural Networks</td><td>Ruiqi Gao &middot; Tianle Cai &middot; Haochuan Li &middot; Cho-Jui Hsieh &middot; Liwei Wang &middot; Jason Lee</td></tr>
+<tr><td>Assessing Social and Intersectional Biases in Contextualized Word Representations</td><td>Yi Chern Tan &middot; L. Elisa Celis</td></tr>
+<tr><td>Splitting Steepest Descent for Growing Neural Architectures </td><td>Lemeng Wu &middot; Dilin Wang &middot; Qiang Liu</td></tr>
+<tr><td>A unified theory for the origin of grid cells through the lens of pattern formation</td><td>Ben Sorscher &middot; Gabriel Mel &middot; Surya Ganguli &middot; Samuel Ocko</td></tr>
+<tr><td>Adversarial Training and Robustness for Multiple Perturbations</td><td>Florian Tramer &middot; Dan Boneh</td></tr>
+<tr><td>Paradoxes in Fair Machine Learning</td><td>Paul Goelz &middot; Anson Kahng &middot; Ariel Procaccia</td></tr>
+<tr><td>Positional Normalization</td><td>Boyi Li &middot; Felix Wu &middot; Kilian Weinberger &middot; Serge Belongie</td></tr>
+<tr><td>Infra-slow brain dynamics as a marker for cognitive function and decline</td><td>Shagun Ajmera Shyam Sunder Ajmera &middot; Shreya Rajagopal &middot; Razi Rehman &middot; Devarajan Sridharan</td></tr>
+<tr><td>Zero-shot Knowledge Transfer via Adversarial Belief Matching</td><td>Paul Micaelli &middot; Amos Storkey</td></tr>
+<tr><td>Multi-Criteria Dimensionality Reduction with Applications to Fairness</td><td>Uthaipon Tantipongpipat &middot; Samira Samadi &middot; Mohit Singh &middot; Jamie Morgenstern &middot; Santosh Vempala</td></tr>
+<tr><td>Asymptotic Guarantees for Learning Generative Models with the Sliced-Wasserstein Distance</td><td>Kimia Nadjahi &middot; Alain Durmus &middot; Umut Simsekli &middot; Roland Badeau</td></tr>
+<tr><td>Ask not what AI can do, but what AI should do: Towards a framework of task delegability</td><td>Brian Lubars &middot; Chenhao Tan</td></tr>
+<tr><td>On the Downstream Performance of Compressed Word Embeddings</td><td>Avner May &middot; Jian Zhang &middot; Tri Dao &middot; Christopher Ré</td></tr>
+<tr><td>A Nonconvex Approach for Exact and Efficient Multichannel Sparse Blind Deconvolution</td><td>Qing Qu &middot; Xiao Li &middot; Zhihui Zhu</td></tr>
+<tr><td>Theoretical Analysis of Adversarial Learning: A Minimax Approach</td><td>Zhuozhuo Tu &middot; Jingwei Zhang &middot; Dacheng Tao</td></tr>
+<tr><td>Making AI Forget You: Data Deletion in Machine Learning</td><td>Antonio Ginart &middot; Melody Guan &middot; Gregory Valiant &middot; James Zou</td></tr>
+<tr><td>CPM-Nets: Cross Partial Multi-View Networks</td><td>Changqing Zhang &middot; Zongbo Han &middot; yajie cui &middot; Huazhu Fu &middot; Joey Tianyi Zhou &middot; Qinghua Hu</td></tr>
+<tr><td>Efficiently Learning Fourier Sparse Set Functions</td><td>Andisheh Amrollahi &middot; Amir Zandieh &middot; Michael Kapralov &middot; Andreas Krause</td></tr>
+<tr><td>Statistical bounds for entropic optimal transport: sample complexity and the central limit theorem</td><td>Gonzalo Mena &middot; Jonathan Niles-Weed</td></tr>
+<tr><td>On Testing for Biases in Peer Review</td><td>Ivan Stelmakh &middot; Nihar Shah &middot; Aarti Singh</td></tr>
+<tr><td>Numerically Accurate Hyperbolic Embeddings Using Tiling-Based Models</td><td>Tao Yu &middot; Christopher De Sa</td></tr>
+<tr><td>Generalization Error Analysis of Quantized Compressive Learning</td><td>Xiaoyun Li &middot; Ping Li</td></tr>
+<tr><td>Differentiable Ranking and Sorting using Optimal Transport</td><td>Marco Cuturi &middot; Olivier Teboul &middot; Jean-Philippe Vert</td></tr>
+<tr><td>A Step Toward Quantifying Independently Reproducible Machine Learning Research</td><td>Edward Raff</td></tr>
+<tr><td>Large Memory Layers with Product Keys</td><td>Guillaume Lample &middot; Alexandre Sablayrolles &middot; Marc'Aurelio Ranzato &middot; Ludovic Denoyer &middot; Herve Jegou</td></tr>
+<tr><td>Surfing: Iterative Optimization Over Incrementally Trained Deep Networks</td><td>Ganlin Song &middot; Zhou Fan &middot; John Lafferty</td></tr>
+<tr><td>KerGM: Kernelized Graph Matching</td><td>Zhen Zhang &middot; Yijian Xiang &middot; Lingfei Wu &middot; Bing Xue &middot; Arye Nehorai</td></tr>
+<tr><td>Private Learning Implies Online Learning: An Efficient Reduction</td><td>Alon Gonen &middot; Elad Hazan &middot; Shay Moran</td></tr>
+<tr><td>Cross-lingual Language Model Pretraining</td><td>Alexis CONNEAU &middot; Guillaume Lample</td></tr>
+<tr><td>Quadratic Video Interpolation</td><td>Xiangyu Xu &middot; Li Siyao &middot; Wenxiu Sun &middot; Qian Yin &middot; Ming-Hsuan Yang</td></tr>
+<tr><td>Wasserstein Weisfeiler-Lehman Graph Kernels</td><td>Matteo Togninalli &middot; Elisabetta Ghisu &middot; Felipe Llinares-López &middot; Bastian Rieck &middot; Karsten Borgwardt</td></tr>
+<tr><td>Private Stochastic Convex Optimization with Optimal Rates</td><td>Raef Bassily &middot; Vitaly Feldman &middot; Kunal Talwar &middot; Abhradeep Guha Thakurta</td></tr>
+<tr><td>N-Gram Graph: Simple Unsupervised Representation for Graphs, with Applications to Molecules</td><td>Shengchao Liu &middot; Mehmet F Demirel &middot; Yingyu Liang</td></tr>
+<tr><td>Training Image Estimators without Image Ground Truth</td><td>Zhihao Xia &middot; Ayan Chakrabarti</td></tr>
+<tr><td>Regularization Matters: Generalization and Optimization of Neural Nets v.s. their Induced Kernel</td><td>Colin Wei &middot; Jason Lee &middot; Qiang Liu &middot; Tengyu Ma</td></tr>
+<tr><td>Practical Differentially Private Top-k Selection with Pay-what-you-get Composition</td><td>David Durfee &middot; Ryan Rogers</td></tr>
+<tr><td>Evaluating Protein Transfer Learning with TAPE</td><td>Roshan Rao &middot; Nicholas Bhattacharya &middot; Neil Thomas &middot; Yan Duan &middot; Peter Chen &middot; John Canny &middot; Pieter Abbeel &middot; Yun Song</td></tr>
+<tr><td>STREETS: A Novel Camera Network Dataset for Traffic Flow</td><td>Corey Snyder &middot; Minh Do</td></tr>
+<tr><td>Comparing distributions: $\ell_1$ geometry improves kernel two-sample testing</td><td>meyer scetbon &middot; Gael Varoquaux</td></tr>
+<tr><td>Differentially Private Markov Chain Monte Carlo</td><td>Mikko Heikkilä &middot; Joonas Jälkö &middot; Onur Dikmen &middot; Antti Honkela</td></tr>
+<tr><td>Cormorant: Covariant Molecular Neural Networks</td><td>Brandon Anderson &middot; Truong Son Hy &middot; Risi Kondor</td></tr>
+<tr><td>Reflection Separation using a Pair of Unpolarized and Polarized Images</td><td>Youwei Lyu &middot; Zhaopeng Cui &middot; Si Li &middot; Marc Pollefeys &middot; Boxin Shi</td></tr>
+</tbody>
+</table>
+        </div>
+        <div class="footer" style="margin-top:15px;font-size:0.7em;text-align:center;">
+            <hr>
+            NeurIPS 2019 &middot; Created by Runtian Zhai <br>
+        </div>
+    </div>
+
+</body>
+</html>
