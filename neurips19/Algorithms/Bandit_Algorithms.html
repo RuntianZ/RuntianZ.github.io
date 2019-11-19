@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeurIPS 2019</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+    .dropdown-submenu {
+    position: relative;
+    }
+
+    .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/neurips19/index">Spotlight</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Algorithms</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Active_Learning">Active Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Adaptive_Data_Analysis">Adaptive Data Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Adversarial_Learning">Adversarial Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/AutoML">AutoML</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Bandit_Algorithms">Bandit Algorithms</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Boosting_and_Ensemble_Methods">Boosting and Ensemble Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Classification">Classification</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Clustering">Clustering</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Collaborative_Filtering">Collaborative Filtering</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Components_Analysis_(e.g._CCA_ICA_LDA_PCA)">Components Analysis (e.g. CCA ICA LDA PCA)</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Density_Estimation">Density Estimation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Dynamical_Systems">Dynamical Systems</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Few-Shot_Learning">Few-Shot Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Kernel_Methods">Kernel Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Large_Scale_Learning">Large Scale Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Meta-Learning">Meta-Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Metric_Learning">Metric Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Missing_Data">Missing Data</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Model_Selection_and_Structure_Learning">Model Selection and Structure Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Multitask_and_Transfer_Learning">Multitask and Transfer Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Nonlinear_Dimensionality_Reduction_and_Manifold_Learning">Nonlinear Dimensionality Reduction and Manifold Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Online_Learning">Online Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Ranking_and_Preference_Learning">Ranking and Preference Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Regression">Regression</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Relational_Learning">Relational Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Representation_Learning">Representation Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Semi-Supervised_Learning">Semi-Supervised Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Similarity_and_Distance_Learning">Similarity and Distance Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Sparse_Coding_and_Dimensionality_Expansion">Sparse Coding and Dimensionality Expansion</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Sparsity_and_Compressed_Sensing">Sparsity and Compressed Sensing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Spectral_Methods">Spectral Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Stochastic_Methods">Stochastic Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Structured_Prediction">Structured Prediction</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Uncertainty_Estimation">Uncertainty Estimation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Algorithms/Unsupervised_Learning">Unsupervised Learning</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Applications</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Activity_and_Event_Recognition">Activity and Event Recognition</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Audio_and_Speech_Processing">Audio and Speech Processing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Body_Pose_Face_and_Gesture_Analysis">Body Pose Face and Gesture Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Communication-_or_Memory-Bounded_Learning">Communication- or Memory-Bounded Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computational_Biology_and_Bioinformatics">Computational Biology and Bioinformatics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computational_Photography">Computational Photography</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computational_Social_Science">Computational Social Science</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Computer_Vision">Computer Vision</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Denoising">Denoising</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Dialog-_or_Communication-Based_Learning">Dialog- or Communication-Based Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Fairness_Accountability_and_Transparency">Fairness Accountability and Transparency</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Game_Playing">Game Playing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Hardware_and_Systems">Hardware and Systems</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Health">Health</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Image_Segmentation">Image Segmentation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Information_Retrieval">Information Retrieval</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Matrix_and_Tensor_Factorization">Matrix and Tensor Factorization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Natural_Language_Processing">Natural Language Processing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Network_Analysis">Network Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Object_Detection">Object Detection</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Object_Recognition">Object Recognition</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Privacy_Anonymity_and_Security">Privacy Anonymity and Security</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Program_Understanding_and_Generation">Program Understanding and Generation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Quantitative_Finance_and_Econometrics">Quantitative Finance and Econometrics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Recommender_Systems">Recommender Systems</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Robotics">Robotics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Signal_Processing">Signal Processing</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Sustainability">Sustainability</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Time_Series_Analysis">Time Series Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Tracking_and_Motion_in_Video">Tracking and Motion in Video</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Video_Analysis">Video Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Visual_Question_Answering">Visual Question Answering</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Visual_Scene_Analysis_and_Interpretation">Visual Scene Analysis and Interpretation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Applications/Web_Applications_and_Internet_Data">Web Applications and Internet Data</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Data Challenges Implementations and Software</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Benchmarks">Benchmarks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Data_Sets_or_Data_Repositories">Data Sets or Data Repositories</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Software_Toolkits">Software Toolkits</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Data_Challenges_Implementations_and_Software/Virtual_Environments">Virtual Environments</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Deep Learning</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Adversarial_Networks">Adversarial Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Attention_Models">Attention Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Biologically_Plausible_Deep_Networks">Biologically Plausible Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/CNN_Architectures">CNN Architectures</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Deep_Autoencoders">Deep Autoencoders</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Efficient_Inference_Methods">Efficient Inference Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Efficient_Training_Methods">Efficient Training Methods</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Embedding_Approaches">Embedding Approaches</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Generative_Models">Generative Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Interaction-Based_Deep_Networks">Interaction-Based Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Memory-Augmented_Neural_Networks">Memory-Augmented Neural Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Optimization_for_Deep_Networks">Optimization for Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Predictive_Models">Predictive Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Recurrent_Networks">Recurrent Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Supervised_Deep_Networks">Supervised Deep Networks</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Deep_Learning/Visualization_or_Exposition_Techniques_for_Deep_Networks">Visualization or Exposition Techniques for Deep Networks</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Neuroscience and Cognitive Science</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Brain--Computer_Interfaces_and_Neural_Prostheses">Brain--Computer Interfaces and Neural Prostheses</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Brain_Imaging">Brain Imaging</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Brain_Mapping">Brain Mapping</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Cognitive_Science">Cognitive Science</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Connectomics">Connectomics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Human_or_Animal_Learning">Human or Animal Learning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Language_for_Cognitive_Science">Language for Cognitive Science</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Memory">Memory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Neural_Coding">Neural Coding</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Neuroscience">Neuroscience</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Perception">Perception</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Problem_Solving">Problem Solving</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Reasoning">Reasoning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Neuroscience_and_Cognitive_Science/Visual_Perception">Visual Perception</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Optimization</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Combinatorial_Optimization">Combinatorial Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Convex_Optimization">Convex Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Non-Convex_Optimization">Non-Convex Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Stochastic_Optimization">Stochastic Optimization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Optimization/Submodular_Optimization">Submodular Optimization</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Probabilistic Methods</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Bayesian_Nonparametrics">Bayesian Nonparametrics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Belief_Propagation">Belief Propagation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Causal_Inference">Causal Inference</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Distributed_Inference">Distributed Inference</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Gaussian_Processes">Gaussian Processes</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Graphical_Models">Graphical Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Hierarchical_Models">Hierarchical Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Latent_Variable_Models">Latent Variable Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/MCMC">MCMC</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Topic_Models">Topic Models</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Probabilistic_Methods/Variational_Inference">Variational Inference</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Reinforcement Learning and Planning</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Decision_and_Control">Decision and Control</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Exploration">Exploration</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Hierarchical_RL">Hierarchical RL</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Markov_Decision_Processes">Markov Decision Processes</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Model-Based_RL">Model-Based RL</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Multi-Agent_RL">Multi-Agent RL</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Navigation">Navigation</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Planning">Planning</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Reinforcement_Learning_and_Planning/Reinforcement_Learning">Reinforcement Learning</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#">Theory</a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Computational_Complexity">Computational Complexity</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Control_Theory">Control Theory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Frequentist_Statistics">Frequentist Statistics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Game_Theory_and_Computational_Economics">Game Theory and Computational Economics</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Hardness_of_Learning_and_Approximations">Hardness of Learning and Approximations</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Information_Theory">Information Theory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Large_Deviations_and_Asymptotic_Analysis">Large Deviations and Asymptotic Analysis</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Learning_Theory">Learning Theory</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Regularization">Regularization</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Spaces_of_Functions_and_Kernels">Spaces of Functions and Kernels</a></li>
+                    <li><a class="dropdown-item" href="/neurips19/Theory/Statistical_Physics_of_Learning">Statistical Physics of Learning</a></li>
+                    </ul>
+                    </li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/neurips19/oral">Oral</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/neurips19/others">Tutorials and Talks</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+    $('.dropdown-menu a.dropdown-toggle').on('mouseover', function(e) {
+    if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+    }
+    var $subMenu = $(this).next('.dropdown-menu');
+    $subMenu.toggleClass('show');
+
+
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+        $('.dropdown-submenu .show').removeClass('show');
+    });
+
+
+    return false;
+    });
+    </script>
+    <div class="main-content" style="margin:15px 3% 0 5%;font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">
+        <div class="container-fluid">
+
+ <h1>Algorithms -- Bandit_Algorithms</h1><table class="table">
+<thead><tr><th scope="col">Title</th><th scope="col">Authors</th></tr></thead>
+<tbody>
+<tr><td><a href="https://papers.nips.cc/paper/8725-blocking-bandits">Blocking Bandits</a></td><td>Soumya Basu &middot; Rajat Sen &middot; Sujay Sanghavi &middot; Sanjay Shakkottai</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8384-combinatorial-bandits-with-relative-feedback">Combinatorial Bandits with Relative Feedback</a></td><td>Aadirupa Saha &middot; Aditya Gopalan</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8702-decentralized-cooperative-stochastic-bandits">Decentralized Cooperative Stochastic Bandits</a></td><td>David Martínez-Rubio &middot; Varun Kanade &middot; Patrick Rebeschini</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8822-doubly-robust-lasso-bandit">Doubly-Robust Lasso Bandit</a></td><td>Gi-Soo Kim &middot; Myunghee Cho Paik</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8887-efficient-pure-exploration-in-adaptive-round-model">Efficient Pure Exploration in Adaptive Round model</a></td><td>tianyuan jin &middot; Jieming SHI &middot; Xiaokui Xiao &middot; Enhong Chen</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8554-epsilon-best-arm-identification-in-pay-per-reward-multi-armed-bandits">Epsilon-Best-Arm Identification in Pay-Per-Reward Multi-Armed Bandits</a></td><td>Sivan Sabato</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8881-nonstochastic-multiarmed-bandits-with-unrestricted-delays">Nonstochastic Multiarmed Bandits with Unrestricted Delays</a></td><td>Tobias Sommer Thune &middot; Nicolò Cesa-Bianchi &middot; Yevgeny Seldin</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8537-on-the-optimality-of-perturbations-in-stochastic-and-adversarial-multi-armed-bandit-problems">On the Optimality of Perturbations in Stochastic and Adversarial Multi-armed Bandit Problems</a></td><td>Baekjin Kim &middot; Ambuj Tewari</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8970-phase-transitions-and-cyclic-phenomena-in-bandits-with-switching-constraints">Phase Transitions and Cyclic Phenomena in Bandits with Switching Constraints</a></td><td>David Simchi-Levi &middot; Yunzong Xu</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8388-polynomial-cost-of-adaptation-for-x-armed-bandits">Polynomial Cost of Adaptation for X-Armed Bandits</a></td><td>Hedi Hadiji</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8507-semi-parametric-dynamic-contextual-pricing">Semi-Parametric Dynamic Contextual Pricing</a></td><td>Virag Shah &middot; Ramesh Johari &middot; Jose Blanchet</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9531-bayesian-optimization-under-heavy-tailed-payoffs">Bayesian Optimization under Heavy-tailed Payoffs</a></td><td>Sayak Ray Chowdhury &middot; Aditya Gopalan</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9366-connections-between-mirror-descent-thompson-sampling-and-the-information-ratio">Connections Between Mirror Descent, Thompson Sampling and the Information Ratio</a></td><td>Julian Zimmert &middot; Tor Lattimore</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8575-individual-regret-in-cooperative-nonstochastic-multi-armed-bandits">Individual Regret in Cooperative Nonstochastic Multi-Armed Bandits</a></td><td>Yogev Bar-On &middot; Yishay Mansour</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9489-learning-multiple-markov-chains-via-adaptive-allocation">Learning Multiple Markov Chains via Adaptive Allocation</a></td><td>Mohammad Sadegh Talebi &middot; Odalric-Ambrym Maillard</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9124-linear-stochastic-bandits-under-safety-constraints">Linear Stochastic Bandits Under Safety Constraints</a></td><td>Sanae Amani &middot; Mahnoosh Alizadeh &middot; Christos Thrampoulidis</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9323-personalizing-many-decisions-with-high-dimensional-covariates">Personalizing Many Decisions with High-Dimensional Covariates</a></td><td>Nima Hamidi &middot; Mohsen Bayati &middot; Kapil Gupta</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9592-non-asymptotic-pure-exploration-by-solving-games">Non-Asymptotic Pure Exploration by Solving Games</a></td><td>Rémy Degenne &middot; Wouter Koolen &middot; Pierre Ménard</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9312-online-exp3-learning-in-adversarial-bandits-with-delayed-feedback">Online EXP3 Learning in Adversarial Bandits with Delayed Feedback</a></td><td>Ilai Bistritz &middot; Zhengyuan Zhou &middot; Xi Chen &middot; Nicholas Bambos &middot; Jose Blanchet</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8798-optimal-best-markovian-arm-identification-with-fixed-confidence">Optimal Best Markovian Arm Identification with Fixed Confidence</a></td><td>Vrettos Moulos</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9244-oracle-efficient-algorithms-for-online-linear-optimization-with-bandit-feedback">Oracle-Efficient Algorithms for Online Linear Optimization with Bandit Feedback</a></td><td>Shinji Ito &middot; Daisuke Hatano &middot; Hanna Sumita &middot; Kei Takemura &middot; Takuro Fukunaga &middot; Naonori Kakimura &middot; Ken-Ichi Kawarabayashi</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9102-regret-bounds-for-thompson-sampling-in-episodic-restless-bandit-problems">Regret Bounds for Thompson Sampling in Episodic Restless Bandit Problems</a></td><td>Young Hun Jung &middot; Ambuj Tewari</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9340-thresholding-bandit-with-optimal-aggregate-regret">Thresholding Bandit with Optimal Aggregate Regret</a></td><td>Chao Tao &middot; Saúl Blanco &middot; Jian Peng &middot; Yuan Zhou</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9372-weighted-linear-bandits-for-non-stationary-environments">Weighted Linear Bandits for Non-Stationary Environments</a></td><td>Yoan Russac &middot; Claire Vernade &middot; Olivier Cappé</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9373-improved-regret-bounds-for-bandit-combinatorial-optimization">Improved Regret Bounds for Bandit Combinatorial Optimization</a></td><td>Shinji Ito &middot; Daisuke Hatano &middot; Hanna Sumita &middot; Kei Takemura &middot; Takuro Fukunaga &middot; Naonori Kakimura &middot; Ken-Ichi Kawarabayashi</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8762-learning-in-generalized-linear-contextual-bandits-with-stochastic-delays">Learning in Generalized  Linear Contextual Bandits with Stochastic Delays</a></td><td>Zhengyuan Zhou &middot; Renyuan Xu &middot; Jose Blanchet</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9680-low-rank-bandit-methods-for-high-dimensional-dynamic-pricing">Low-Rank Bandit Methods for High-Dimensional Dynamic Pricing</a></td><td>Jonas Mueller &middot; Vasilis Syrgkanis &middot; Matt Taddy</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9285-maxgap-bandit-adaptive-algorithms-for-approximate-ranking">MaxGap Bandit: Adaptive Algorithms for Approximate Ranking</a></td><td>Sumeet Katariya &middot; Ardhendu Tripathy &middot; Robert Nowak</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9614-model-selection-for-contextual-bandits">Model Selection for Contextual Bandits</a></td><td>Dylan Foster &middot; Akshay Krishnamurthy &middot; Haipeng Luo</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9514-no-regret-learning-in-unknown-games-with-correlated-payoffs">No-Regret Learning in Unknown Games with Correlated Payoffs</a></td><td>Pier Giuseppe Sessa &middot; Ilija Bogunovic &middot; Maryam Kamgarpour &middot; Andreas Krause</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9609-nonparametric-contextual-bandits-in-metric-spaces-with-unknown-metric">Nonparametric Contextual Bandits in Metric Spaces with Unknown Metric</a></td><td>Nirandika Wanigasekara &middot; Christina Yu</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9601-pure-exploration-with-multiple-correct-answers">Pure Exploration with Multiple Correct Answers</a></td><td>Rémy Degenne &middot; Wouter Koolen</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9561-recovering-bandits">Recovering Bandits</a></td><td>Ciara Pike-Burke &middot; Steffen Grunewalder</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9251-sequential-experimental-design-for-transductive-linear-bandits">Sequential Experimental Design for Transductive Linear Bandits</a></td><td>Lalit Jain &middot; Kevin Jamieson &middot; Tanner Fiez &middot; Lillian Ratliff</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9375-sic-mmab-synchronisation-involves-communication-in-multiplayer-multi-armed-bandits">SIC-MMAB: Synchronisation Involves Communication in Multiplayer Multi-Armed Bandits</a></td><td>Etienne Boursier &middot; Vianney Perchet</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8932-are-sample-means-in-multi-armed-bandits-positively-or-negatively-biased">Are sample means in multi-armed bandits positively or negatively biased?</a></td><td>Jaehyeok Shin &middot; Aaditya Ramdas &middot; Alessandro Rinaldo</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9549-a-new-perspective-on-pool-based-active-classification-and-false-discovery-control">A New Perspective on Pool-Based Active Classification and False-Discovery Control</a></td><td>Lalit Jain &middot; Kevin Jamieson</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9382-bootstrapping-upper-confidence-bound">Bootstrapping Upper Confidence Bound</a></td><td>Botao Hao &middot; Yasin Abbasi Yadkori &middot; Zheng Wen &middot; Guang Cheng</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9586-categorized-bandits">Categorized Bandits</a></td><td>Matthieu Jedor &middot; Vianney Perchet &middot; Jonathan Louedec</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9595-censored-semi-bandits-a-framework-for-resource-allocation-with-censored-feedback">Censored Semi-Bandits: A Framework for Resource Allocation with Censored Feedback</a></td><td>Arun Verma &middot; Manjesh Hanawal &middot; Arun Rajkumar &middot; Raman Sankaran</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9162-contextual-bandits-with-cross-learning">Contextual Bandits with Cross-Learning</a></td><td>Santiago Balseiro &middot; Negin Golrezaei &middot; Mohammad Mahdian &middot; Vahab Mirrokni &middot; Jon Schneider</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9305-distribution-oblivious-risk-aware-algorithms-for-multi-armed-bandits-with-unbounded-rewards">Distribution oblivious, risk-aware algorithms for multi-armed   bandits with unbounded rewards</a></td><td>Anmol Kagrecha &middot; Jayakrishnan Nair &middot; Krishna Jagannathan</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9169-dynamic-incentive-aware-learning-robust-pricing-in-contextual-auctions">Dynamic Incentive-Aware Learning: Robust Pricing in Contextual Auctions</a></td><td>Negin Golrezaei &middot; Adel Javanmard &middot; Vahab Mirrokni</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9558-stochastic-bandits-with-context-distributions">Stochastic Bandits with Context Distributions</a></td><td>Johannes Kirschner &middot; Andreas Krause</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/9084-thompson-sampling-and-approximate-inference">Thompson Sampling and Approximate Inference</a></td><td>My Phan &middot; Yasin Abbasi Yadkori &middot; Justin Domke</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8578-thompson-sampling-for-multinomial-logit-contextual-bandits">Thompson Sampling for Multinomial Logit Contextual Bandits</a></td><td>Min-hwan Oh &middot; Garud Iyengar</td></tr>
+<tr><td><a href="https://papers.nips.cc/paper/8614-thompson-sampling-with-information-relaxation-penalties">Thompson Sampling with Information Relaxation Penalties</a></td><td>Seungki Min &middot; Costis Maglaras &middot; Ciamac C Moallemi</td></tr>
+</tbody>
+</table>
+        </div>
+        <div class="footer" style="margin-top:15px;font-size:0.7em;text-align:center;">
+            <hr>
+            NeurIPS 2019 &middot; Created by Runtian Zhai <br>
+        </div>
+    </div>
+
+</body>
+</html>
